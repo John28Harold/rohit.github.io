@@ -1,0 +1,147 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+:root{
+    --ff-primary:'Baloo Bhaijaan 2', cursive;;
+    --ff-secondary:'Ubuntu', sans-serif;;
+
+    --fw-reg:300;
+    --fw-bold:900;
+
+    --clr-light:#ffffff;
+    --clr-dark:#3355ac;
+    --clr-accent:#16E0BD;
+
+    --fs-h1:3rem;
+    --fs-h2:2.25rem;
+    --fs-h3:1.75rem;
+    --fs-body:1.15rem;
+    --transition: 0.3s;
+
+}
+
+body{
+    background: var(--clr-light);
+    color: var(--clr-dark);
+    margin: 0px
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+    color: black;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+h1,h2,h3{
+    line-height: 1.1;
+    margin:0;
+    color: var(--clr-dark);
+}
+h1{font-size: var(--fs-h1);}
+h2{font-size: var(--fs-h2);}
+h3{font-size: var(--fs-h3);}
+
+nav {
+    position: sticky;
+    
+    z-index: 1;
+   
+    align-items: center;
+    
+    padding: 1.5rem 3.5rem;
+    background-color: var(--clr-accent);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  nav a {
+    color: var(--clr-light);
+    text-decoration: none;
+    transition: var(--transition);
+  }
+  nav a:hover {
+    color: var(--clr-dark);
+    border-bottom: 2px solid var(--clr-dark);
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1.9rem;
+    list-style-type: none;
+    justify-content: center;
+    
+   
+  }
+  
+  nav ul li {
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-h3);
+  }
+
+.intro{
+    display:flex;
+}
+.intro-img
+{
+    max-width:200px;
+    margin-right: 10px;
+}
+.intro-box2 h1,p{
+    font-family: var(--ff-secondary);
+    margin: 30px 10px;
+}
+.h1-title{
+margin: 20px 30px;
+font-family: var(--ff-secondary);
+color: black
+;
+}
+.education{
+    display: flex;
+    margin: 10px 30px;
+    padding: 10px 10px;
+    gap: 1em;
+}
+.edu-box{
+    border: 2px solid rgb(85, 9, 9);
+    margin: 5px;
+    padding: 10px;
+    background-color: #8e06f559;
+}
+
+.project{
+    margin: 10px 30px;
+}
+.work{
+    margin: 10px 30px;
+}
+.sk{
+    margin:  30px;
+    
+}
+
+.container {
+    margin: -20px 30px;
+    width:200px; /* Full width */
+    background-color: #ddd; /* Grey background */
+  }
+  
+  .skills {
+    text-align: right; /* Right-align text */
+    padding-top: 0px; /* Add top padding */
+    padding-bottom: 0px; /* Add bottom padding */
+    color: white; /* White text color */
+  }
+  
+  .html {width: 90%; background-color: #04AA6D;} /* Green */
+  .css {width: 80%; background-color: #2196F3;} /* Blue */
+  .js {width: 65%; background-color: #f44336;} /* Red */
+  .php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+
+  footer {
+    text-align: center;
+    background-color: #8da7d7;
+    color: white;
+  }

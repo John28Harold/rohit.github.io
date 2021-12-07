@@ -102,6 +102,7 @@ color: black
     margin: 10px 30px;
     padding: 10px 10px;
     gap: 1em;
+    flex-wrap: wrap;
 }
 .edu-box{
     border: 2px solid rgb(85, 9, 9);
